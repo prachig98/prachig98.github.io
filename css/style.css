@@ -15,6 +15,16 @@ body{
 .me{
     padding: 0px 0px 0px 20px;
 }    
+
+body>article{
+    margin: 20px 10px 0px 10px;
+    padding: 0px 50px 50px 50px;
+    text-align: center;    
+    outline-offset: 0pt;
+    color: #3b3a36;
+    font-size: 4em;
+}
+
 body>article>a{
     position: relative;
 }  
@@ -83,39 +93,13 @@ body>article>a>img:hover{
     font-size: 0.4em;
 }
 .about{  
-    margin: 20px 10px 0px 10px;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
     background-color: #c0dfd9;
-    outline-offset: 0pt;
-    color: #3b3a36;
-    font-size: 4em;
     }
     
 .stuff{  
-    margin: 20px 10px 0px 10px;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
-    background-color: #a8b6bf;
-    outline-offset: 0pt;
-    color: #3b3a36;
-    font-size: 4em;
-    }
-.cool{  
-    margin: 20px 10px 0px 10px;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
     background-color: #c2dfff;
-    outline-offset: 0pt;
-    color: #3b3a36;
-    font-size: 4em;
     }
+
 .links{  
-    margin: 20px 10px 0px 10px;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
     background-color: #b0aac2;
-    outline-offset: 0pt;
-    color: #3b3a36;
-    font-size: 4em;
     }
