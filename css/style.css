@@ -18,6 +18,14 @@ body{
 body>article>a{
     position: relative;
 }  
+
+.aboutme{
+    text-align: center;
+    font-size: 0.4em;
+    color: #545b5f;
+    padding: 10px 15px 10px 15px;
+}
+
 body>article>a>img{
     opacity: 0.5;
     position: relative;
