@@ -4,6 +4,7 @@ body{
     font-family: 'Josefin Slab', serif;
     align-items: center;
 }
+
 .box{  
     padding: 50px 50px 50px 50px;
     text-align: center;
@@ -12,6 +13,7 @@ body{
     color: white;
     font-size: 4em;
     }
+    
 .me{
     padding: 0px 0px 0px 20px;
 }    
@@ -32,7 +34,7 @@ body>article>a{
 .aboutme{
     text-align: center;
     font-size: 0.4em;
-    color: #545b5f;
+    color: #98AFC7;
     padding: 10px 15px 10px 15px;
 }
 
@@ -86,20 +88,15 @@ body>article>a>img:hover{
     padding: 0px 0px 0px 0px;
     animation: bounceFront 1.9s infinite linear;
     font-weight: bold;    
+    
 }
-
 
 .caption {
     font-size: 0.4em;
 }
-.about{  
-    background-color: #c0dfd9;
-    }
-    
-.stuff{  
-    background-color: #c2dfff;
-    }
-
-.links{  
-    background-color: #b0aac2;
-    }
+a:link{
+    color: #98AFC7;
+}
+a:visited{
+    color: #98AFC7;
+}
