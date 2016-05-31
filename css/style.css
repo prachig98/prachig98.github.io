@@ -139,37 +139,20 @@ svg{
     padding: 50px 0px 0px 0px;
 }
 .contact{
-    align-items: middle;
+    display: inline-block;  
+    padding-bottom: 210px;
+    margin: 20px 0px 0px 0px;
     background-color: #282828;
-    color: lightgray;
-    height: 600px;
-    min-width: 100%; 
+    min-width: 100%;
+    color: whitesmoke;
+}
+.contact>a>article>img{
+    border: 5px groove;
+    border-radius: 100px;
+    border-color: white;
+}
+.contact>p{
+    font-size: 2.5em;
+    text-align: center;
 }
 
-.contact-shiz {
-    display: block;
-    margin-top: 20px;
-    letter-spacing: 2px;
-    font-size: 2em;
-    padding: 10px 10px 10px 10px;
-}
-
-input, textarea{
-    width: 400px;
-    height: 30px;
-    border: 5px inset;
-    border-color: slategrey;
-    border-radius: 5px;
-}
-.message, textarea{
-    height: 90px;
-}
-.submit {
-    border: 7px outset;
-    height: 2.5em;
-    width: 415px;
-}
-
-.mess-head{
-    font-size: 1.25em;
-}
