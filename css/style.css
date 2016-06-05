@@ -42,6 +42,12 @@ ul, menu, dir{
     display: inline-block;
 }
 
+@media screen and (max-width: 720px){
+    .nav a{
+        font-size: 4vw;
+    }
+}
+
 .nav a{
     font-size: 2vw;
     text-decoration: none;
